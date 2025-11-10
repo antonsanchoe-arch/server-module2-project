@@ -1,0 +1,137 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Marvel",
+      "country": "USA",
+      "foundedYear": 1939,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "DC Comics",
+      "country": "USA",
+      "foundedYear": 1934,
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Dark Horse Comics",
+      "country": "USA",
+      "foundedYear": 1986,
+      "isActive": true
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Spider-Man",
+      "powerLevel": 90,
+      "type": "Superhuman",
+      "threatLevel": "Medium",
+      "isHero": true,
+      "companyId": 1,
+      "description": "Peter Parker was bitten by a radioactive spider and gained superhuman abilities."
+    },
+    {
+      "id": 2,
+      "name": "Iron Man",
+      "powerLevel": 85,
+      "type": "Human",
+      "threatLevel": "High",
+      "isHero": true,
+      "companyId": 1,
+      "description": "Tony Stark is a billionaire genius who built a high-tech suit to fight crime."
+    },
+    {
+      "id": 3,
+      "name": "Wolverine",
+      "powerLevel": 95,
+      "type": "Mutant",
+      "threatLevel": "High",
+      "isHero": true,
+      "companyId": 1,
+      "description": "Logan has adamantium claws and a healing factor that makes him almost immortal."
+    },
+    {
+      "id": 4,
+      "name": "Magneto",
+      "powerLevel": 98,
+      "type": "Mutant",
+      "threatLevel": "Very High",
+      "isHero": false,
+      "companyId": 1,
+      "description": "Erik Lehnsherr can manipulate magnetic fields and is often an enemy of the X-Men."
+    },
+    {
+      "id": 5,
+      "name": "Batman",
+      "powerLevel": 80,
+      "type": "Human",
+      "threatLevel": "Medium",
+      "isHero": true,
+      "companyId": 2,
+      "description": "Bruce Wayne is a vigilante in Gotham who fights crime using his intellect and physical skills."
+    },
+    {
+      "id": 6,
+      "name": "Superman",
+      "powerLevel": 100,
+      "type": "Kryptonian",
+      "threatLevel": "Very High",
+      "isHero": true,
+      "companyId": 2,
+      "description": "Kal-El is an alien from Krypton with superhuman strength, flight, and X-ray vision."
+    },
+    {
+      "id": 7,
+      "name": "Joker",
+      "powerLevel": 70,
+      "type": "Human",
+      "threatLevel": "High",
+      "isHero": false,
+      "companyId": 2,
+      "description": "The Clown Prince of Crime is a psychopathic master of chaos and Batman's enemy."
+    },
+    {
+      "id": 8,
+      "name": "Hellboy",
+      "powerLevel": 88,
+      "type": "Demon/Human",
+      "threatLevel": "High",
+      "isHero": true,
+      "companyId": 3,
+      "description": "Hellboy is a demon raised by humans who fights supernatural creatures to protect Earth."
+    },
+    {
+      "id": 9,
+      "name": "Grendel",
+      "powerLevel": 85,
+      "type": "Human/Demon",
+      "threatLevel": "High",
+      "isHero": false,
+      "companyId": 3,
+      "description": "A villain with superhuman abilities and dangerous intellect, recurring enemy of Hellboy and other heroes."
+    },
+    {
+      "id": 10,
+      "name": "Thor",
+      "powerLevel": 99,
+      "type": "Asgardian God",
+      "threatLevel": "Very High",
+      "isHero": true,
+      "companyId": 1,
+      "description": "Thor is the God of Thunder who protects both Asgard and Earth."
+    },
+    {
+      "id": 11,
+      "name": "Thanos",
+      "powerLevel": 100,
+      "type": "Titan",
+      "threatLevel": "Extreme",
+      "isHero": false,
+      "companyId": 1,
+      "description": "Thanos seeks to gather the Infinity Stones to impose his vision of order on the universe."
+    }
+  ]
+}
