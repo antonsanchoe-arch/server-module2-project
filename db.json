@@ -26,112 +26,171 @@
     {
       "id": 1,
       "name": "Spider-Man",
-      "powerLevel": 90,
-      "type": "Superhuman",
+      "universe": "Marvel",
+      "species": "Superhuman",
       "threatLevel": "Medium",
+      "powerLevel": 90,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "description": "Peter Parker was bitten by a radioactive spider and gained superhuman abilities."
+      "image": "",
+      "description": "Peter Parker was bitten by a radioactive spider and gained superhuman abilities. With his powers, he protects New York City while balancing his personal life."
     },
     {
       "id": 2,
       "name": "Iron Man",
-      "powerLevel": 85,
-      "type": "Human",
+      "universe": "Marvel",
+      "species": "Human",
       "threatLevel": "High",
+      "powerLevel": 85,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "description": "Tony Stark is a billionaire genius who built a high-tech suit to fight crime."
+      "image": "",
+      "description": "Tony Stark is a genius billionaire who built the Iron Man suit to fight evil and protect the world."
     },
     {
       "id": 3,
       "name": "Wolverine",
-      "powerLevel": 95,
-      "type": "Mutant",
+      "universe": "Marvel",
+      "species": "Mutant",
       "threatLevel": "High",
+      "powerLevel": 95,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "description": "Logan has adamantium claws and a healing factor that makes him almost immortal."
+      "image": "",
+      "description": "Logan, known as Wolverine, has adamantium claws and a healing factor that makes him nearly immortal. Member of the X-Men."
     },
     {
       "id": 4,
       "name": "Magneto",
-      "powerLevel": 98,
-      "type": "Mutant",
+      "universe": "Marvel",
+      "species": "Mutant",
       "threatLevel": "Very High",
+      "powerLevel": 98,
+      "alignment": "Villain",
       "isHero": false,
       "companyId": 1,
-      "description": "Erik Lehnsherr can manipulate magnetic fields and is often an enemy of the X-Men."
+      "image": "",
+      "description": "Erik Lehnsherr, known as Magneto, controls magnetic fields and seeks mutant supremacy."
     },
     {
       "id": 5,
       "name": "Batman",
-      "powerLevel": 80,
-      "type": "Human",
+      "universe": "DC Comics",
+      "species": "Human",
       "threatLevel": "Medium",
+      "powerLevel": 80,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 2,
-      "description": "Bruce Wayne is a vigilante in Gotham who fights crime using his intellect and physical skills."
+      "image": "",
+      "description": "Bruce Wayne, a billionaire who witnessed his parents' murder, fights crime as the vigilante Batman in Gotham City."
     },
     {
       "id": 6,
       "name": "Superman",
-      "powerLevel": 100,
-      "type": "Kryptonian",
+      "universe": "DC Comics",
+      "species": "Kryptonian",
       "threatLevel": "Very High",
+      "powerLevel": 100,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 2,
-      "description": "Kal-El is an alien from Krypton with superhuman strength, flight, and X-ray vision."
+      "image": "",
+      "description": "Kal-El, sent from Krypton, possesses super strength, flight, and heat vision. He defends Earth as Superman."
     },
     {
       "id": 7,
       "name": "Joker",
-      "powerLevel": 70,
-      "type": "Human",
+      "universe": "DC Comics",
+      "species": "Human",
       "threatLevel": "High",
+      "powerLevel": 70,
+      "alignment": "Villain",
       "isHero": false,
       "companyId": 2,
-      "description": "The Clown Prince of Crime is a psychopathic master of chaos and Batman's enemy."
+      "image": "",
+      "description": "The Joker is Gotham's chaotic mastermind, obsessed with Batman and spreading chaos."
     },
     {
       "id": 8,
       "name": "Hellboy",
-      "powerLevel": 88,
-      "type": "Demon/Human",
+      "universe": "Dark Horse Comics",
+      "species": "Demon/Human",
       "threatLevel": "High",
+      "powerLevel": 88,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 3,
-      "description": "Hellboy is a demon raised by humans who fights supernatural creatures to protect Earth."
+      "image": "",
+      "description": "Summoned from Hell during World War II, Hellboy fights supernatural threats to protect humanity."
     },
     {
       "id": 9,
       "name": "Grendel",
-      "powerLevel": 85,
-      "type": "Human/Demon",
+      "universe": "Dark Horse Comics",
+      "species": "Human/Demon",
       "threatLevel": "High",
+      "powerLevel": 85,
+      "alignment": "Villain",
       "isHero": false,
       "companyId": 3,
-      "description": "A villain with superhuman abilities and dangerous intellect, recurring enemy of Hellboy and other heroes."
+      "image": "",
+      "description": "Grendel is a powerful assassin and strategist who merges human intellect with demonic power."
     },
     {
       "id": 10,
       "name": "Thor",
-      "powerLevel": 99,
-      "type": "Asgardian God",
+      "universe": "Marvel",
+      "species": "Asgardian God",
       "threatLevel": "Very High",
+      "powerLevel": 99,
+      "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "description": "Thor is the God of Thunder who protects both Asgard and Earth."
+      "image": "",
+      "description": "Thor Odinson, the God of Thunder, defends both Asgard and Earth with his enchanted hammer, Mjolnir."
     },
     {
       "id": 11,
       "name": "Thanos",
-      "powerLevel": 100,
-      "type": "Titan",
+      "universe": "Marvel",
+      "species": "Titan",
       "threatLevel": "Extreme",
+      "powerLevel": 100,
+      "alignment": "Villain",
       "isHero": false,
       "companyId": 1,
-      "description": "Thanos seeks to gather the Infinity Stones to impose his vision of order on the universe."
+      "image": "",
+      "description": "Thanos, the Mad Titan, seeks the Infinity Stones to bring balance to the universe by any means."
+    },
+    {
+      "name": "Black Panther",
+      "universe": "Marvel",
+      "species": "human",
+      "threatLevel": "high",
+      "powerLevel": "75",
+      "alignment": "Hero",
+      "isHero": true,
+      "description": "king of Wakanda",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.lzOXg38u429QaTVfT7qX4gHaEK?pid=Api&P=0&h=180",
+      "id": 13
+    }
+  ],
+  "favorites": [
+    {
+      "name": "Black Panther",
+      "universe": "Marvel",
+      "species": "human",
+      "threatLevel": "50",
+      "powerLevel": "75",
+      "alignment": "Hero",
+      "isHero": true,
+      "description": "kink of wakanda",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.lzOXg38u429QaTVfT7qX4gHaEK?pid=Api&P=0&h=180",
+      "id": 12
     }
   ]
 }

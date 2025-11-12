@@ -1,32 +1,33 @@
-// server.js
-const jsonServer = require("json-server");
-const path = require("path");
+try {
+  // loads the variables in the .env for us to use here
+  process.loadEnvFile()
+} catch (error) {
+  console.log("cannot find .env file,using default values")
+}
 
-// Cargar variables de entorno
-require("dotenv").config();
+const jsonServer = require("json-server")
 
-const server = jsonServer.create();
-const middlewares = jsonServer.defaults();
+// creating the server
+const server = jsonServer.create()
 
-server.use(middlewares);
 
-// Middleware CORS explícito
-server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header(
-    "Access-Control-Allow-Methods",
-    "GET, POST, PUT, PATCH, DELETE, OPTIONS"
-  );
-  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
-  next();
-});
 
-// Rutas y base de datos
-const router = jsonServer.router(path.join(__dirname, "db.json"));
-server.use(router);
+// creates all the default configurations of the server
+const middlewares = jsonServer.defaults()
 
-// Puerto
-const PORT = process.env.PORT || 5005;
-server.listen(PORT, () => {
-  console.log(`Server Active and listening on port: ${PORT}`);
-});
+// applying all the default configurations to the server
+server.use(middlewares)
+
+// create all the routes (ALL URLS AND METHODS) and the DB in json format
+const router = jsonServer.router("db.json")
+
+// apply all the routes and db to the server
+server.use(router)
+
+// we assign a PORT for the server to communicate with clients
+const PORT = process.env.PORT || 5005
+
+// will make the server actively listen for requests from clients
+server.listen(PORT,() => {
+  console.log(` Server Active and listening on port: ${PORT}`)
+})
