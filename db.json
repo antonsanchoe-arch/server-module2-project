@@ -33,7 +33,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "image": "",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.CPJLttv_4-fxmSsDdlZdtgHaEK?pid=Api&P=0&h=180",
       "description": "Peter Parker was bitten by a radioactive spider and gained superhuman abilities. With his powers, he protects New York City while balancing his personal life."
     },
     {
@@ -46,7 +46,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "image": "",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.OH5coZpBKinJpPkExbvlpwHaFj?pid=Api&P=0&h=180",
       "description": "Tony Stark is a genius billionaire who built the Iron Man suit to fight evil and protect the world."
     },
     {
@@ -59,7 +59,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "image": "",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.HDXmjJzhhXG8otyIqZStHgHaEK?pid=Api&P=0&h=180",
       "description": "Logan, known as Wolverine, has adamantium claws and a healing factor that makes him nearly immortal. Member of the X-Men."
     },
     {
@@ -72,7 +72,7 @@
       "alignment": "Villain",
       "isHero": false,
       "companyId": 1,
-      "image": "",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.6jcNu8Toqbdrgr2Hevo-WwHaJQ?pid=Api&P=0&h=180",
       "description": "Erik Lehnsherr, known as Magneto, controls magnetic fields and seeks mutant supremacy."
     },
     {
@@ -85,7 +85,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 2,
-      "image": "",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.4GSMSLO41PiLz88uijT7_gHaHa?pid=Api&P=0&h=180",
       "description": "Bruce Wayne, a billionaire who witnessed his parents' murder, fights crime as the vigilante Batman in Gotham City."
     },
     {
@@ -98,7 +98,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 2,
-      "image": "",
+      "image": "https://tse4.mm.bing.net/th/id/OIP.w5sDUHJPZiAWl2p4vS6d7QHaEK?pid=Api&P=0&h=180",
       "description": "Kal-El, sent from Krypton, possesses super strength, flight, and heat vision. He defends Earth as Superman."
     },
     {
@@ -111,7 +111,7 @@
       "alignment": "Villain",
       "isHero": false,
       "companyId": 2,
-      "image": "",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.9cJfc4dU55RH3uKPQANv_gHaEK?pid=Api&P=0&h=180",
       "description": "The Joker is Gotham's chaotic mastermind, obsessed with Batman and spreading chaos."
     },
     {
@@ -124,7 +124,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 3,
-      "image": "",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.LZ2_9YAgnZpnniwHiMtJ0gHaDs?pid=Api&P=0&h=180",
       "description": "Summoned from Hell during World War II, Hellboy fights supernatural threats to protect humanity."
     },
     {
@@ -137,7 +137,7 @@
       "alignment": "Villain",
       "isHero": false,
       "companyId": 3,
-      "image": "",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.IvKy-gegcLJRQst3gUYo9QHaDt?pid=Api&P=0&h=180",
       "description": "Grendel is a powerful assassin and strategist who merges human intellect with demonic power."
     },
     {
@@ -150,7 +150,7 @@
       "alignment": "Hero",
       "isHero": true,
       "companyId": 1,
-      "image": "",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.3Qc8pLsm4s3yq366UvMd7QHaEK?pid=Api&P=0&h=180",
       "description": "Thor Odinson, the God of Thunder, defends both Asgard and Earth with his enchanted hammer, Mjolnir."
     },
     {
@@ -163,7 +163,7 @@
       "alignment": "Villain",
       "isHero": false,
       "companyId": 1,
-      "image": "",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.ZwJ-RYF_cFNK2Ou3DN6B0wHaEK?pid=Api&P=0&h=180",
       "description": "Thanos, the Mad Titan, seeks the Infinity Stones to bring balance to the universe by any means."
     },
     {
@@ -184,13 +184,13 @@
       "name": "Black Panther",
       "universe": "Marvel",
       "species": "human",
-      "threatLevel": "50",
+      "threatLevel": "high",
       "powerLevel": "75",
       "alignment": "Hero",
       "isHero": true,
-      "description": "kink of wakanda",
+      "description": "king of Wakanda",
       "image": "https://tse4.mm.bing.net/th/id/OIP.lzOXg38u429QaTVfT7qX4gHaEK?pid=Api&P=0&h=180",
-      "id": 12
+      "id": 13
     }
   ]
 }
