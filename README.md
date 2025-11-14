@@ -39,9 +39,9 @@ This repository is a [json-server](https://github.com/typicode/json-server) crea
 | ----------- | --------------------------- | ---------------------------- | -------------------------------------------------------------- |
 | GET         | `/characters`               |                              | Returns all characters                                         |
 | POST        | `/characters`               | {name, universe, species,    | Creates a new character                                        |
-|             |                             |   threatLevel, powerLevel,   |                                                                |
-|             |                             |  alignment, isHero,          |                                                                |
-|             |                             |  description, image}         |                                                                |
+                                              threatLevel, powerLevel,                                                                   
+                                              alignment, isHero,                                                                          
+                                              description, image}                                                                         
 | GET         | `/characters/:id`           |                              | Returns a single character by ID                               |
 | PUT         | `/characters/:id`           | {title, description, isFav}  | Updates a character completely                                 |
 | DELETE      | `/characters/:id`           |                              | Deletes a character                                            |
